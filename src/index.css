@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+/* 1. حجم السكرول بار */
+::-webkit-scrollbar {
+  width: 13px; /* عرض السكرول الرأسي */
+  /* height: 10px; ارتفاع السكرول الأفقي */
+}
+
+/* 2. الخلفية اللي السكرول بيمشي عليها (الـ Track) */
+::-webkit-scrollbar-track {
+  background: #f8fafc; /* هنا استخدمنا الـ Slate-50 بتاعك */
+}
+
+/* 3. الجزء المتحرك (الـ Thumb) - هنا بنعمل الجرايدينت */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #045647, #f89151); /* تدرج من الأزرق للبنفسجي */
+  border-radius: 10px; /* عشان يبقى شكله دائري وشيك */
+  border: 2px solid #f8fafc; /* فواصل بتخلي الجرايدينت يبان أنضف */
+}
+
+/* 4. شكل السكرول لما تقف عليه بالماوس (Hover) */
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to bottom, #f89151, #045647);
+  cursor: pointer;
+}
