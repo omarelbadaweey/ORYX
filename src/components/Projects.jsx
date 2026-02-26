@@ -2,12 +2,13 @@ const Projects = () => {
   const myProjects = [
     {
       id: 1,
-      title: "MedicFlow System",
+      title: "Diamond Dental Centers",
       category: "Clinic Management",
-      desc: "سيستم متكامل لإدارة العيادات وحجز المواعيد إلكترونياً.",
+      desc: "سيستم متكامل لحجز المواعيد إلكترونياً.",
       size: "md:col-span-2", // كارد عريض
       img: "https://images.unsplash.com/photo-1504813184591-01572f98c85f?q=80&w=800",
-      accent: "border-emerald-500/20"
+      accent: "border-emerald-500/20",
+      link: "https://www.diamond-dental-centers.com/"
     },
     {
       id: 2,
@@ -16,7 +17,8 @@ const Projects = () => {
       desc: "متجر سريع جداً مع بوابات دفع عالمية.",
       size: "md:col-span-1", // كارد صغير
       img: "https://images.unsplash.com/photo-1557821552-17105176677c?q=80&w=800",
-      accent: "border-orange-500/20"
+      accent: "border-orange-500/20",
+      link: "https://www.diamond-dental-centers.com/"
     },
     {
       id: 3,
