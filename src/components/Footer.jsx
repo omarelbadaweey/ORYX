@@ -48,13 +48,13 @@ const Footer = () => {
             <p className="text-slate-300 leading-relaxed text-sm">
               نحن مؤسسة تقنية متخصصة في ابتكار الحلول البرمجية وتصميم تجارب مستخدم استثنائية. نحول الأكواد إلى قصص نجاح.
             </p>
-            <div className="flex gap-4">
+            {/* <div className="flex gap-4">
               {[Facebook, Twitter, Instagram, Linkedin].map((Icon, index) => (
                 <a key={index} href="#" className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center hover:bg-orange-500 hover:border-orange-500 transition-all duration-300">
                   <Icon size={18} />
                 </a>
               ))}
-            </div>
+            </div> */}
           </div>
 
           {/* 2. روابط سريعة */}
@@ -105,10 +105,10 @@ const Footer = () => {
                 <Phone size={18} className="text-orange-500" />
                 <span dir="ltr">01092129293</span>
               </div>
-              <div className="flex items-center gap-3">
+              {/* <div className="flex items-center gap-3">
                 <Mail size={18} className="text-orange-500" />
                 <span>hello@oryx-tech.com</span>
-              </div>
+              </div> */}
             </div>
           </div>
 
